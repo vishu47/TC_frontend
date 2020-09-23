@@ -1,0 +1,574 @@
+nav {
+  font-family: 'Montserrat', sans-serif;
+  background-color: white;
+  height: 60px;
+  width: 100%;
+  -webkit-box-shadow: 0px 0px 13px 2px rgba(0, 0, 0, 0.3);
+          box-shadow: 0px 0px 13px 2px rgba(0, 0, 0, 0.3);
+}
+
+nav .logo {
+  line-height: 60px;
+  color: black;
+  font-size: 35px;
+  margin-left: 150px;
+  height: 35px;
+  font-family: 'Passero One', cursive;
+}
+
+nav ul {
+  float: right;
+  line-height: 60px;
+  padding: 2px 100px 0px 0px;
+}
+
+nav ul li {
+  display: inline-block;
+  line-height: 60px;
+  font-size: 17px;
+  padding: 0 10px;
+}
+
+nav ul li a {
+  color: black;
+  font-weight: 500;
+}
+
+nav ul li a:hover:not(.cart) {
+  color: black;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  text-decoration: none;
+  padding-bottom: 5px;
+  border-bottom: 3px solid black;
+}
+
+nav ul li .btn-danger {
+  color: #fff !important;
+  background-color: transparent !important;
+  border-color: white !important;
+  font-weight: 500 !important;
+}
+
+nav ul li .btn-danger:focus, nav ul li .btn-danger:active {
+  border: none !important;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+}
+
+nav ul li .dropdown-item {
+  padding: 0rem 1.5rem !important;
+}
+
+nav ul li .shift {
+  left: -100px !important;
+}
+
+.dropdown-submenu {
+  position: relative;
+}
+
+.dropdown-submenu .dropdown-menu {
+  top: 0;
+  left: 100%;
+}
+
+.login {
+  font-weight: 700 !important;
+}
+
+.cart {
+  color: black;
+  height: 55px;
+  padding-left: 20px;
+  border-bottom: 0px !important;
+  border-left: 2px solid #777777;
+}
+
+.checkbtn {
+  font-size: 30px;
+  color: black;
+  float: right;
+  line-height: 50px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+
+#check {
+  display: none;
+}
+
+.middle .search .header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  text-align: center;
+  width: 100%;
+  padding: 50px 0;
+}
+
+.middle .search .header img {
+  width: 800px;
+}
+
+.middle .search .header .card {
+  width: 360px;
+  border-radius: 50px;
+  padding: 20px 40px;
+  height: 300px;
+  margin-top: 65px;
+}
+
+.middle .search .header .card img {
+  float: right;
+  width: 50px;
+  height: 50px;
+}
+
+.middle .search .header .card h1 {
+  font-family: 'Passero One', cursive;
+  font-size: 45px;
+  padding-top: 20px;
+  color: #215B91;
+}
+
+.middle .search .header .card input {
+  height: 40px;
+  border-radius: 10px;
+  padding: 22px;
+  text-align: center;
+  margin: 10px 0;
+  border: 1px solid black;
+}
+
+.middle .search .header .card button {
+  height: 50px;
+  text-align: center;
+  padding: 10px 0;
+  border-radius: 10px;
+  background: #5078DF;
+  color: white;
+  font-size: 20px;
+}
+
+.portrait {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin-bottom: 50px;
+}
+
+.portrait .portrait_bar img {
+  height: 620px;
+  margin-right: 60px;
+}
+
+.portrait .port_sec {
+  border-radius: 20px;
+  background-color: #DAF4FF;
+  width: 100%;
+}
+
+.portrait .port_sec .col-md-6 {
+  margin: 0px;
+  text-align: center;
+  padding: 30px 0;
+}
+
+.portrait .port_sec .col-md-6 a {
+  border-radius: 15px;
+  padding: 10px;
+  width: auto;
+  height: auto;
+  overflow: hidden;
+}
+
+.portrait .port_sec .col-md-6 a img {
+  width: 300px;
+  height: 250px;
+  border: 1px solid black;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.mata {
+  margin-top: 50px;
+}
+
+.mata .mata_head {
+  padding-bottom: 50px;
+  margin: auto;
+  text-align: center;
+}
+
+.mata .mata_head h1 {
+  font-size: 50px;
+}
+
+.mata .mata_head p {
+  line-height: 50px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.mata .mata_row {
+  margin-bottom: 100px;
+}
+
+.mata .mata_row .mata_row_l img {
+  width: 500px;
+}
+
+.mata .mata_row .mata_col {
+  text-align: center;
+  margin: auto;
+}
+
+.mata .mata_row .mata_col h1 {
+  line-height: 100px;
+  font-size: 40px;
+}
+
+.mata .mata_row .mata_col p {
+  line-height: 50px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.mata .mata_row .mata_col button {
+  padding: 0px 15px !important;
+  margin-top: 150px !important;
+  border-bottom: 1px solid black;
+}
+
+.how_works .how_works_head {
+  padding-bottom: 50px;
+  margin: auto;
+  text-align: center;
+}
+
+.how_works .how_works_head h1 {
+  font-size: 50px;
+}
+
+.how_works .how_works_head p {
+  line-height: 50px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.how_works .card_details {
+  margin-bottom: 100px;
+  text-align: center;
+}
+
+.how_works .card_details .card_details_content {
+  width: 80%;
+  margin: auto;
+  border: 0px;
+}
+
+.how_works .card_details .card_details_content img {
+  margin: auto;
+  width: 150px;
+  height: 150px;
+  padding: 10px;
+}
+
+.text_center {
+  border: 25px solid  #F7FCFF;
+  width: 75%;
+  margin: auto;
+  border-radius: 60px;
+  padding: 10px 20px;
+}
+
+.text_center img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: 10px 0;
+}
+
+.text_center .soft {
+  font-weight: 300;
+}
+
+.text_center p {
+  padding-top: 20px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.contact_us .form_part {
+  padding: 50px 40px;
+}
+
+.contact_us .form_part form {
+  padding: 20px 80px;
+  border-radius: 20px;
+  background: #F8F4F4;
+}
+
+.contact_us .form_part form h4 span {
+  font-size: 16px;
+}
+
+.contact_us .form_part form label {
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
+.contact_us .form_part form input {
+  width: 70%;
+  border-radius: 5px;
+  padding: 0 10px;
+  border: 1px solid black;
+}
+
+.contact_us .form_part form textarea {
+  border: 1px solid black;
+  width: 70%;
+  border-radius: 5px;
+}
+
+.contact_us .form_part form .btn_suc {
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.contact_us .add_part {
+  padding: 140px 40px 0px 40px;
+}
+
+.contact_us .add_part .card {
+  border: 10px solid #F8F4F4;
+  border-radius: 20px;
+  padding: 50px;
+}
+
+.contact_us .add_part .card img {
+  width: 80px;
+  height: 120px;
+  position: absolute;
+  top: -30%;
+  left: 40%;
+}
+
+.contact_us .add_part .card p {
+  font-size: 20px;
+}
+
+li {
+  list-style-type: none;
+}
+
+.footer {
+  background: #EEFAFF;
+}
+
+.footer .footer_0 {
+  list-style-type: none;
+}
+
+.footer .footer_0 .footer_1 {
+  text-align: center;
+}
+
+.footer .footer_0 .footer_1 h5 {
+  padding-top: 20px;
+  line-height: 50px;
+  line-height: 60px;
+  color: black;
+  font-size: 35px;
+  font-family: 'Passero One', cursive;
+}
+
+.footer .footer_0 .footer_1 h6 {
+  font-size: 26px;
+  font-weight: 500px;
+}
+
+.footer .footer_0 .footer_1 p {
+  color: gray;
+  opacity: 0.7;
+}
+
+.footer .footer_0 .footer_2 {
+  padding-top: 20px;
+}
+
+.footer .footer_0 .footer_2 li p {
+  margin: 0px;
+}
+
+.footer .footer_0 .footer_3 {
+  padding-top: 20px;
+}
+
+.footer .footer_0 .footer_3 p {
+  margin-bottom: 0px;
+  color: black;
+}
+
+.footer .footer_0 .footer_5 h5 {
+  padding-top: 20px;
+}
+
+.footer .footer_0 .footer_5 a {
+  overflow: hidden;
+  margin: 10px 0;
+}
+
+.footer .footer_0 .footer_5 a img {
+  height: 20px;
+  width: 20px;
+}
+
+@media (max-width: 952px) {
+  label.logo {
+    font-size: 30px;
+    padding-left: 30px;
+  }
+  nav ul li a {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 800px) {
+  .top_head ul {
+    font-size: 10px !important;
+  }
+  .top_head ul li {
+    padding: 5px 10px;
+  }
+  .checkbtn {
+    display: block;
+    line-height: 50px;
+  }
+  nav ul {
+    z-index: 1000;
+    padding: 0px !important;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    line-height: 20px !important;
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #3F3D56;
+    top: 60px;
+    left: -100%;
+    text-align: center;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+  }
+  nav ul li {
+    display: block;
+    margin: 0px 0 !important;
+    line-height: 50px !important;
+  }
+  nav ul li a {
+    color: white;
+    font-size: 20px;
+  }
+  nav ul li a:hover {
+    background: none;
+    color: black;
+  }
+  nav ul .btn_tgl {
+    color: #fff !important;
+    border: 0px;
+  }
+  #check:checked ~ ul {
+    left: 0;
+  }
+  .form_img img {
+    width: 450px;
+  }
+  .middle .search .header img {
+    width: 100%;
+  }
+  .middle .search .header .card {
+    margin: 30px auto;
+  }
+  .middle .search .header .card .gift img {
+    float: right;
+    width: 50px;
+    height: 50px;
+  }
+  .portrait {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    margin-bottom: 50px;
+  }
+  .portrait .portrait_bar img {
+    margin-right: 20px;
+    height: 450px;
+  }
+  .portrait .port_sec {
+    border-radius: 20px;
+    background-color: #DAF4FF;
+    width: 100%;
+    height: 450px;
+    padding-top: 25px;
+  }
+  .portrait .port_sec .col-md-6 {
+    margin: 0px;
+    text-align: center;
+    padding: 0px 0;
+  }
+  .portrait .port_sec .col-md-6 a {
+    padding: 0 0px;
+  }
+  .portrait .port_sec .col-md-6 a img {
+    width: 90%;
+    height: 180px;
+    padding: 10px;
+  }
+  .mata .mata_row .mata_col {
+    padding: 0px;
+  }
+  .mata .mata_row .mata_col button {
+    margin: 15px 0 !important;
+  }
+  .mata .mata_row .mata_row_l img {
+    width: 100%;
+  }
+  .text_center {
+    margin: 0px;
+    width: 100%;
+  }
+  .contact_us .form_part {
+    padding: 50px 40px;
+  }
+  .contact_us .form_part form {
+    padding: 20px 40px;
+  }
+  .contact_us .form_part form input {
+    width: 90%;
+  }
+  .contact_us .form_part form textarea {
+    width: 90%;
+  }
+  .contact_us .add_part {
+    padding-bottom: 30px;
+  }
+}
+/*# sourceMappingURL=index.css.map */
